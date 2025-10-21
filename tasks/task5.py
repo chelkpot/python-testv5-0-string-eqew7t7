@@ -3,9 +3,11 @@
 def solve():
 # Ниже пишите решение задачи
     a, b, c = input().split()
-    print('ASCII', a, ord(a))
-    print('ASCII', b, ord(b))
-    print('ASCII', c, ord(c))
+    print('Код символа', a, 'равен', ord(a))
+    print('Код символа', b, 'равен', ord(b))
+    print('Код символа', c, 'равен', ord(c))
+
+
 
    
 # Код ниже не трогать! он нужен для тестов
